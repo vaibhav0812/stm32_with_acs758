@@ -2,6 +2,7 @@
 const float VCC = 3.331;
 const int model = 0;
 const int NUM_SAMPLES = 1; 
+const int NUM_SAMPLES = 116; 
 const int QUIESCENT_SAMPLE_COUNT = 30;  // Number of samples for quiescent voltage calculation
 float cutOffLimit = 1.00;
 float sensitivity[] = {40.0, 60.0, 20.0, 40.0, 13.3, 16.7, 10.0, 20.0};
